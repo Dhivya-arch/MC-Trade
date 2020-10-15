@@ -1,0 +1,28 @@
+server:
+  port:  8080
+spring:
+  application:
+    name: api-gateway
+# routing for service 1
+#zuul:
+#  routes:
+#    service_1:
+#      path: /api/v1/**
+##zuul.routes.service_1.url = http://localhost:8081/
+zuul:
+  routes:
+    customer-service:
+      url: http://localhost:8086/api/v1
+    trade-service:
+      url: http://localhost:8089/api/v1
+hystrix:
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 5000
+ribbon:
+  ConnectTimeout: 4000
+  ReadTimeout: 4000
+      
