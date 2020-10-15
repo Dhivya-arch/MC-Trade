@@ -1,0 +1,30 @@
+# h2 db connection properties
+spring:
+  datasource:
+    platform: h2
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: root
+    password: root
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+  h2:
+    console: 
+      enabled: true
+     
+server:
+  tomcat:
+    basedir: my-tomcat
+    accesslog:
+      enabled: true
+logging:
+  path: /home/user
+  file: my.log
+feign:
+  hystrix:
+    enabled: true
+#ribbon:
+#  eureka:
+#    enabled: true
