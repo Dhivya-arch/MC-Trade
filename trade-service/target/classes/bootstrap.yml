@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: trade-service
+  cloud:
+    config:
+      uri: http://localhost:8888
+  profiles:
+    active: native
+server:
+  port: 8089   
+    
+eureka:
+  client:
+    service:
+      url:
+        default-zone: http://localhost:8761
+#trade-service:
+#  ribbon:
+#    listOfServers: http://localhost:8089
+        

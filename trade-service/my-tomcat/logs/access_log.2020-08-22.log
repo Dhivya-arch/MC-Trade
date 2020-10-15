@@ -1,0 +1,11 @@
+127.0.0.1 - - [22/Aug/2020:10:10:16 +0530] "POST /api/v1/create-trade HTTP/1.1" 200 106
+192.168.225.58 - - [22/Aug/2020:10:10:46 +0530] "PUT / HTTP/1.1" 404 113
+127.0.0.1 - - [22/Aug/2020:10:13:31 +0530] "PUT /api/v1 HTTP/1.1" 500 131
+127.0.0.1 - - [22/Aug/2020:11:07:30 +0530] "PUT /api/v1/update-trade/Divi HTTP/1.1" 500 149
+127.0.0.1 - - [22/Aug/2020:11:11:59 +0530] "PUT /api/v1/update-trade/Divi HTTP/1.1" 500 149
+127.0.0.1 - - [22/Aug/2020:11:12:55 +0530] "POST /api/v1/create-trade HTTP/1.1" 200 106
+127.0.0.1 - - [22/Aug/2020:11:13:02 +0530] "PUT /api/v1/update-trade/Divi HTTP/1.1" 200 107
+127.0.0.1 - - [22/Aug/2020:11:18:34 +0530] "PUT /api/v1/update-trade/Divi HTTP/1.1" 200 107
+127.0.0.1 - - [22/Aug/2020:11:19:13 +0530] "POST /api/v1/create-trade HTTP/1.1" 200 106
+127.0.0.1 - - [22/Aug/2020:11:19:31 +0530] "PUT /api/v1/update-trade/Divi HTTP/1.1" 200 107
+127.0.0.1 - - [22/Aug/2020:11:20:03 +0530] "PUT /api/v1/update-trade/Divi HTTP/1.1" 200 107
